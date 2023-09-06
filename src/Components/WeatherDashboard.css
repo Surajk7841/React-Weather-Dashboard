@@ -1,0 +1,53 @@
+.inputDiv {
+  background-color: #ccc;
+  height: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.inputDiv input {
+  height: 30px;
+  width: 300px;
+  border-radius: 10px;
+  border: black;
+  margin: 20px;
+  background-color: white;
+}
+
+.inputDiv button {
+  height: 30px;
+  width: 100px;
+  background-color: rgb(67, 93, 93);
+
+  color: white;
+  border: black;
+  border-radius: 10px;
+}
+
+.cardDiv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url(https://wallpapers.com/images/hd/rain-background-bwsdotr5v2lw9usv.jpg);
+  background-size: cover;
+  height: 400px;
+}
+.cardDiv .infoDiv {
+  background-color: aqua;
+  height: 200px;
+  width: 300px;
+  background-image: url(https://t4.ftcdn.net/jpg/03/28/52/05/360_F_328520579_2GRoHRX5mF8mms479xrMOs3yWyHIl52e.jpg);
+  background-size: cover;
+  border-radius: 20px;
+}
+.cardDiv .infoDiv h2,
+.cardDiv .infoDiv p {
+  font-weight: bold;
+}
+.cardDiv .infoDiv button {
+  height: 30px;
+  width: 60px;
+  color: white;
+  background-color: rgb(67, 93, 93);
+  border-radius: 10px;
+}
